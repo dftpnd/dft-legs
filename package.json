@@ -17,6 +17,6 @@
     },
     "homepage": "https://github.com/dftpnd/dft-legs#readme",
     "dependencies": {
-      "node-bluetooth": "^1.2.6",
+      "node-bluetooth": "^1.2.6"
     }
   }
