@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/dftpnd/dft-legs/issues"
   },
-  "homepage": "https://github.com/dftpnd/dft-legs#readme"
+  "homepage": "https://github.com/dftpnd/dft-legs#readme",
+  "dependencies": {
+    "node-bluetooth": "^1.2.6",
+    "serialport": "^8.0.7"
+  }
 }
