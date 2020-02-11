@@ -1,23 +1,22 @@
 {
-  "name": "dft-legs",
-  "version": "1.0.0",
-  "description": "",
-  "main": "client.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/dftpnd/dft-legs.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/dftpnd/dft-legs/issues"
-  },
-  "homepage": "https://github.com/dftpnd/dft-legs#readme",
-  "dependencies": {
-    "node-bluetooth": "^1.2.6",
-    "serialport": "^8.0.7"
+    "name": "dft-legs",
+    "version": "1.0.0",
+    "description": "",
+    "main": "client.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/dftpnd/dft-legs.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/dftpnd/dft-legs/issues"
+    },
+    "homepage": "https://github.com/dftpnd/dft-legs#readme",
+    "dependencies": {
+      "node-bluetooth": "^1.2.6"
+    }
   }
-}
