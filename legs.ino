@@ -2,8 +2,10 @@
 #include <ArduinoJson.h>
 #include <ArduinoJson.hpp>
 #include <SoftwareSerial.h>
+#include <Servo.h>
 
 
+Servo myServo; 
 SoftwareSerial bluetoothSerial(2, 3); // указываем пины rx и tx соответственно
 
 
@@ -17,6 +19,7 @@ void setup()  {
   pinMode(3,OUTPUT);
   Serial.begin(9600);
   bluetoothSerial.begin(38400);
+  myServo.attach(9);
 }
 
 void loop() {
@@ -28,9 +31,9 @@ void loop() {
     int m2Speed = state["M2"];
     int m1Direction = state["M1Direction"];
     int m2Direction = state["M2Direction"];
-    // int servoValue = state["servo"];
-    
-    
+    int servoValue = state["servo"];
+    //    
+    myServo.write(servoValue);
     analogWrite(SPEED_1,  m1Speed);  
     analogWrite(SPEED_2,  m2Speed);
 
