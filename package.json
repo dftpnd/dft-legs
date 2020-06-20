@@ -20,6 +20,7 @@
     "express": "^4.17.1",
     "gamepad": "^1.6.0",
     "node-bluetooth": "^1.2.6",
+    "node-poweredup": "^6.5.3",
     "serialport": "^8.0.7",
     "socket.io": "^2.3.0"
   }
